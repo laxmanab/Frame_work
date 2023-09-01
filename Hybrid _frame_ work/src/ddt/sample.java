@@ -18,8 +18,8 @@ public class sample
 	Workbook book = WorkbookFactory.create(fil);
 	Sheet sheet = book.getSheet("sheet1");
 	Row row = sheet.getRow(0);
-	Cell cell = row.getCell(0);
-	String value = cell.getStringCellValue();
+	//Cell cell = row.getCell(0);
+	//String value = cell.getStringCellValue();
 	System.out.println(value);
 	}
 
