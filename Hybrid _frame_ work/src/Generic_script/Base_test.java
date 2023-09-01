@@ -13,8 +13,8 @@ public class Base_test implements Framework_constants
 		@BeforeMethod
 		public void openapplication()
 		{
-			System.setProperty(chrome_key,chrome_value);
-			driver=new ChromeDriver();
+			//System.setProperty(chrome_key,chrome_value);
+			//driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get(baseURL);
