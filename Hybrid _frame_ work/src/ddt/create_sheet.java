@@ -19,8 +19,8 @@ public class create_sheet
 		Workbook book = WorkbookFactory.create(fis);
 		Sheet sheet = book.createSheet("ABC");
 		Row row = sheet.createRow(0);
-		Cell cell = row.createCell(0);
-		cell.setCellValue("API");
+		//Cell cell = row.createCell(0);
+		//cell.setCellValue("API");
 		FileOutputStream fio = new FileOutputStream("./excel/Book1.xlsx");
 		book.write(fio);
 	}
