@@ -8,7 +8,7 @@ public class base_page
 public WebDriver driver;
 public base_page(WebDriver driver)
 {
-	PageFactory.initElements(driver,this);
+	//PageFactory.initElements(driver,this);
 	
 }
 }
