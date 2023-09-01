@@ -18,9 +18,9 @@ public class write_data_inside_excel_sheet
 		FileInputStream fis=new FileInputStream("./excel/Book1.xlsx");
 		Workbook book = WorkbookFactory.create(fis);
 		Sheet sheet = book.getSheet("Sheet2");
-		Row row = sheet.createRow(0);
-		Cell cell = row.createCell(0);
-		cell.setCellValue("abc");
+		//Row row = sheet.createRow(0);
+		//Cell cell = row.createCell(0);
+		//cell.setCellValue("abc");
 		FileOutputStream fio = new FileOutputStream("./excel/Book1.xlsx");
 		book.write(fio);
 	}
