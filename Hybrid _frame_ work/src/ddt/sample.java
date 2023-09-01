@@ -17,10 +17,10 @@ public class sample
 	FileInputStream fil = new FileInputStream("./excel/Book1.xlsx");
 	Workbook book = WorkbookFactory.create(fil);
 	Sheet sheet = book.getSheet("sheet1");
-	Row row = sheet.getRow(0);
+	//Row row = sheet.getRow(0);
 	//Cell cell = row.getCell(0);
 	//String value = cell.getStringCellValue();
-	System.out.println(value);
+	//System.out.println(value);
 	}
 
 }
